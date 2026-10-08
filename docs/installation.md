@@ -60,10 +60,14 @@ CODEBRAIN/
 
 ## 6. 按需合并 AGENTS 协议
 
+这一步可选，显式调用 `codebrain-memory` 不要求先安装两份协议。当前两份模板正文完全相同，区别是放置范围，不是功能不同或两个独立 Agent。
+
 - [全局模板](../templates/agents/AGENTS.global.md)：供合并到 `~/.codex/AGENTS.md` 时参考。
 - [项目模板](../templates/agents/AGENTS.project.md)：供合并到具体项目的 `AGENTS.md` 时参考。
 
 阅读后按需合并，不直接覆盖已有规则。模板中提及的技能、插件、连接器和权限，需要实际可用后才能使用。
+
+建议先在一个项目中合并项目模板；需要多个项目共用时，再提取通用规则到全局文件，项目文件只写差异。合并后的目标文件名为 `AGENTS.md`，不能仅保留模板的 `.global.md` 或 `.project.md` 名称就视作已安装。若自定义了 `CODEX_HOME`，全局文件应位于该配置目录。范围说明及官方参考见 [README](../README.md#两份-agents-文档有什么区别)。
 
 ## 常见问题
 
