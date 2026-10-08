@@ -94,8 +94,6 @@ codebrain-skill-pack/
 ├── CONTRIBUTING.md           # 贡献与验证规范
 ├── .gitignore
 ├── .gitattributes
-├── .github/
-│   └── PULL_REQUEST_TEMPLATE.md
 ├── docs/
 │   ├── installation.md       # 安装、Vault 初始化与验证
 │   ├── skills.md             # 技能说明与使用边界

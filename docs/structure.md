@@ -6,7 +6,6 @@
 | `LICENSE` | MIT 许可证 |
 | `CHANGELOG.md` | 面向使用者的变更记录 |
 | `CONTRIBUTING.md` | 修改与验证约定 |
-| `.github/` | GitHub 协作模板 |
 | `docs/` | 安装、技能说明和目录职责 |
 | `templates/agents/` | 供用户合并的全局与项目协议模板 |
 | `skills/<name>/` | 可独立复制的技能目录 |
