@@ -1,0 +1,4 @@
+interface:
+  display_name: "CODEBRAIN 记忆库"
+  short_description: "Codex 项目的 Loop 记忆工作流"
+  default_prompt: "使用 $codebrain-memory 为这个项目初始化或维护 CODEBRAIN vault。"
